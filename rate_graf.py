@@ -24,7 +24,6 @@ def GlafDraw(npy_pass):
     plt.xlim(0, len(rates[0]))
     plt.show()
 
-
 npy_passes = ["output.npy"]
 for npy_pass in npy_passes:
     GlafDraw(npy_pass)
