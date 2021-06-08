@@ -25,6 +25,6 @@ def GlafDraw(npy_pass):
     plt.show()
 
 
-npy_passes = ["C:/Users/Ono Hitoshi/output.npy"]
+npy_passes = ["output.npy"]
 for npy_pass in npy_passes:
     GlafDraw(npy_pass)
